@@ -1,0 +1,11 @@
+{
+    "require": {
+        "laravel/prompts": "^0.1.17",
+        "tightenco/collect": "^9.52",
+        "fostam/getopts": "^1.2"
+    }
+    ,
+    "require-dev": {
+        "roave/security-advisories": "dev-latest"
+    }
+}

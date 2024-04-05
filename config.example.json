@@ -1,0 +1,27 @@
+{
+  "fallback": {
+    "aws_profile": "production-mfa",
+    "user": "pluto",
+    "port": 3306,
+    "region": "eu-central-1"
+  },
+  "connections": [
+    {
+      "name": "db-1",
+      "hostname": "db1.xxxxxxxxxx.eu-central-1.rds.amazonaws.com",
+      "user": "r.calabrese"
+    },
+    {
+      "name": "db-2",
+      "hostname": "db2.yyyyyyyyyy.eu-south-1.rds.amazonaws.com",
+      "user": "pippo",
+      "aws_profile": "staging-mfa",
+      "region": "eu-south-1"
+    },
+    {
+      "name": "db-dns-private",
+      "hostname": "db1.company.private",
+      "user": "r.calabrese"
+    }
+  ]
+}
