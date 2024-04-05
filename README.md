@@ -24,14 +24,12 @@ Il progetto utilizza diverse dipendenze PHP:
 1. **Installazione delle dipendenze**: Assicurarsi di aver installato le dipendenze PHP elencate sopra. Questo può essere fatto utilizzando un gestore di pacchetti come Composer.
 2. **Configurazione**: Creare un file di configurazione JSON seguendo il formato fornito nell'esempio. Assicurarsi di inserire tutte le informazioni necessarie per ogni connessione RDS.
 3. **Esecuzione dello script**: Eseguire lo script PHP specificando il percorso del file di configurazione come argomento. Ad esempio:
-
     ```bash
     php rds-token-generator.php -c config.json
     ```
-
-4. **Selezione delle connessioni**: Seguire le istruzioni visualizzate sulla riga di comando per selezionare le connessioni per le quali si desidera generare i token.
-5. **Generazione dei token**: Confermare la generazione dei token e attendere il completamento del processo.
-6. **Token generati**: I token generati verranno visualizzati sulla riga di comando per ciascuna connessione selezionata.
+4. **Selezione delle connessioni**: Seguire le istruzioni visualizzate sulla riga di comando per selezionare le connessioni per le quali si desidera generare i token. ![select-connection.png](images/select-connection.png)
+5. **Generazione dei token**: Confermare la generazione dei token e attendere il completamento del processo.![summary.png](images/summary.png)
+6. **Token generati**: I token generati verranno visualizzati sulla riga di comando per ciascuna connessione selezionata.![token.png](images/token.png)
 
 ## Contributi
 
